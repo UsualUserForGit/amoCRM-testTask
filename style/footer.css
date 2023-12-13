@@ -1,0 +1,142 @@
+.footer{
+  position: absolute;
+  width: calc(100% - 300px);
+  height: 315px;
+  left: 150px;
+  top: 800px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0px;
+  grid-template-rows: 1fr 2.6fr;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /*color: #E4E5EA;
+*/
+}
+.footer-labels{
+  display: grid;
+  
+  grid-template-columns: 0.23fr 0.45fr 0.32fr;
+  column-gap: 60px;
+
+  padding-top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+
+  color: #656566;
+}
+.footer-content{
+  display: grid;
+  
+  grid-template-columns: 0.23fr 0.45fr 0.32fr;
+  column-gap: 60px;
+
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  letter-spacing: 0.07em;
+
+  margin-top: 6px;
+
+  color: #E4E5EA;
+}
+.footer-about-company-label{
+  margin: 0;
+}
+.footer--menu-label{
+  margin: 0;
+}
+.footer-contacts-label{
+  margin: 0;
+  text-align: right;
+  padding-right: 13px;
+}
+.footer-contacts{
+  display: flex;
+  flex-direction: column;
+  margin-left: -11px;
+  padding-top: 2px;
+}
+.about-company{
+  display: flex;
+  flex-direction: column; 
+}
+.footer-menu-feature,.contacts-feature{
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  line-height: 20px;
+  justify-content: space-between;
+}
+.menu-collumn{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  margin-top: 13px;
+  padding-right: 15px;
+}
+.contacts-feature{
+  text-align: right;
+  letter-spacing: 0.06em;
+  padding-right: 13px;
+}
+.footer-contacts-icon{
+  height: 21px;
+  width: 21px;
+
+  cursor: pointer;
+  margin: 0;
+  padding-left: 15px;
+  padding-bottom: 22px;
+}
+
+@media (min-width: 1201px) and (max-width: 1360px) {
+  .footer-content{
+    column-gap: 10px;
+  }
+  .footer-labels{
+    column-gap: 10px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1201px) {
+  .menu{
+    flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+  .footer{
+    top: 1200px;
+  }
+  .menu{
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer{
+    top: 1200px;
+  }
+  .menu{
+    flex-direction: column;
+  }
+}

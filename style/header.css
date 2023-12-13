@@ -1,0 +1,118 @@
+.header{
+  position: absolute;
+  height: 73px;
+  left: 150px;
+  right: 150px;
+  top: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+/*15% 65% 85%*/
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  flex: 0.15;
+  min-width: 165px;
+}
+.logo-text{
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 14px;
+
+  color: rgba(238, 239, 244, 0.575);
+
+  margin-top: 12px;
+}
+.logo-vector {
+  flex: 28.9px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.navigation-menu{
+  flex: 0.54;
+  
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  text-decoration: none;
+  letter-spacing: 0.09rem;
+
+  padding-left: 65px;
+  padding-right: 120px;
+
+  margin-top: 7px;
+  min-width: 550px;
+}
+.navigation-option{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.9);
+
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 19px;
+
+  cursor: pointer;
+}
+.contacts-number{
+  flex: 0.23;
+
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+
+  margin-top: 6px;
+  padding-left: 2px;
+
+  color: rgba(228, 229, 234, 1);
+}
+.contacts{
+  flex: 0.16;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 4.5px;
+}
+.contacts-icon{
+  width: 22px;
+
+  cursor: pointer;
+
+  margin: 0;
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) and (max-width: 1360px) {
+
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .contacts-number{
+    display: none;
+  }
+  .contacts{
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+  .contacts-number{
+    display: none;
+  }
+  .contacts{
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
