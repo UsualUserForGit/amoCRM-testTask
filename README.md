@@ -1,2 +1,2 @@
 ﻿# amoCRM-testTask
-![](images/view%20overall.png)
+![](images\view\overall.png)
